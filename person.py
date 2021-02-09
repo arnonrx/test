@@ -7,11 +7,11 @@ class Person:
         print('Hello my name is '+ self.name)
 
 class Persons:
-    def __init__(myObj, name, age):
+    def __init__(self, name, age):
         myObj.name = name
         myObj.age = age
 
-    def myfunc(myObj):
+    def myfunc(self):
         print('Hello my name is ...' + myObj.name)
 
 p1 = Person('John', 36)
